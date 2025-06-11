@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory</title>
+    <script src="Memory.js" defer></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="Memory.css">
+</head>
+<body>
+<div  id="main" class="container text-center ">
+    <h1 class="display-5 bg-success text-white p-3 opacity-75 mb-2 fw-bold">MEMORY DEL ODS</h1>
+    <div class="mb-3">
+        <label for="dificultad" class="text-white me-2">Selecciona la dificultad</label>
+        <select id="dificultad" class="btn btn-outline-success text-white">
+            <option value="5">Facil (5 parejas)</option>
+            <option value="10">Media (10 parejas)</option>
+            <option value="15">Dificil (15 parejas)</option>
+        </select>
+        <button onclick="juego()" class="btn btn-success ms-3">Empezar</button></div>
+    <div id="timer" class="text-white mb-3"></div>
+</div>
+<div class="container text-center">
+    <div id="rowCartas" class="row row-cols-5 gx-4 gy-4 justify-content-center"></div>
+</div>
+<div id="footer" class="container text-center mt-4 bg-success opacity-75"></div>
+</body>
+</html>

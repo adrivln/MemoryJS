@@ -1,0 +1,40 @@
+body {
+    background-image: url("imatges/FondoWeb.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: brightness(80%);
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-image: url("imatges/fondoCarta.png");
+    background-size: cover;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.selected {
+    border: 2px dashed white;
+}
+
+.matched {
+    border: 3px solid white;
+}
+
+#records {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+#records .card-body {
+    padding: 10px;
+}
+
